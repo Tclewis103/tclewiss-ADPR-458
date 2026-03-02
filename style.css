@@ -4,6 +4,9 @@ margin: 0 10%;
 font-family: sans-serif;
 background-image: url("Images/fabric.webp");
 }
+.container {
+    background-color:white ;
+}
 
 header  {
     background-color:  #9abcf8; 
