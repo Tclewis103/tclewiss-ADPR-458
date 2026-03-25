@@ -23,10 +23,12 @@ h4 {
 /***** Button Components*********/
 
 .button:link, .button:visited {
-    color: white;
-    background-color:#9abcf8;
+    color: #3b73e0;
+    background-color:#3b73e0;
+    font-family: sans-serif;
     text-align: center;
     text-decoration: none;
+    color: white;
     padding: 1rem 1.75rem;
     border-radius: .5rem;
     box-shadow: 0 .125rem .5rem rgba(0, 0, 0, .15);
@@ -35,7 +37,7 @@ h4 {
     transition: background-color 0.5s ease;
 }
 .button:hover {
-    background-color: #475978;
+    
 
 }
 
@@ -50,13 +52,15 @@ div#background {
 
 div#nav {
     background-color: white;
-    padding: 10px 0;
+    padding: 8px 0;
+    font-size: 12px;
+    font-family: sans-serif;
 }
 
 div#nav ul {
     display: flex;
     justify-content: space-evenly;
-    margin: 0 10%;
+    margin: 0 20%;
     flex-direction: row;
     padding: 0;
 }
