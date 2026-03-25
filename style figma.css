@@ -23,23 +23,37 @@
 /*****New CSS************/
 div#background {
     background-color: red;
-    width: 1440px;
+    max-width: 1440px;
+    width: 100%;
     margin: auto;
 }
+
+div#nav {
+    background-color: black;
+    padding: 10px 0;
+}
+
 div#nav ul {
     display: flex;
     justify-content: space-evenly;
     margin: 0 10%;
     flex-direction: row;
+    padding: 0;
 }
+
 div#nav li {
     list-style: none;
     padding: 5px;
-
 }
+
+div#nav a {
+    text-decoration: none;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
 div#section1 {
-    background-image:url(https://pisces.bbystatic.com/image2/BestBuy_US/images/products/c3abe0d2-3129-4e47-8904-aadaf47eb4af.jpg;maxHeight=427;maxWidth=640?format=webp)
+    background-image: url(https://pisces.bbystatic.com/image2/BestBuy_US/images/products/c3abe0d2-3129-4e47-8904-aadaf47eb4af.jpg);
     background-size: cover;
     height: 100vh;
-
 }
