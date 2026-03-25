@@ -22,7 +22,7 @@
 
 /*****New CSS************/
 div#background {
-    background-color: red;
+    background-color: white;
     max-width: 1440px;
     width: 100%;
     margin: auto;
@@ -46,11 +46,6 @@ div#nav li {
     padding: 5px;
 }
 
-div#nav a {
-    text-decoration: none;
-    color: white;
-    font-family: Arial, sans-serif;
-}
 
 div#section1 {
     background-image: url(https://pisces.bbystatic.com/image2/BestBuy_US/images/products/c3abe0d2-3129-4e47-8904-aadaf47eb4af.jpg);
