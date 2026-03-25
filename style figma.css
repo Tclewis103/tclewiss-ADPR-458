@@ -3,7 +3,21 @@ h1 {
     font-family: sans-serif;
     color: black;
     font-size:100px;
-    
+}
+h2 {
+    font-family: sans-serif;
+    color: white;
+    font-size: 100px;
+}
+h3 {
+    font-family: sans-serif;
+    color: black;
+    font-size: 70px;
+}
+h4 {
+    font-family: sans-serif;
+    color: white;
+    font-size: 70px;
 }
 
 /***** Button Components*********/
