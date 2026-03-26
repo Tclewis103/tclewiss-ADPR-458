@@ -45,10 +45,12 @@ h4 {
     text-decoration: none;
     margin: 5px;
 
-    
 }
 #section3 .heroBTN {
     padding-bottom: 20px;
+}
+#section1Right .heroBTN {
+    padding-bottom: 30px;
 }
 
 /*****New CSS************/
@@ -164,7 +166,7 @@ div#section7 {
 }
 #section1Left .content {
     position: absolute;
-    bottom: 3%;
+    bottom: 0;
     left: 5%;
    transform: translateX(-3%);
    text-align: center;
@@ -172,7 +174,22 @@ div#section7 {
     gap: 50px;
     align-items: center;
 }
-
+#section1Right .content {
+   position: absolute;
+    bottom: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    
+}
+#section2Left .content {
+   position: absolute;
+    bottom: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    
+}
 /**********Background images*************/
 
 #section1Left {
@@ -180,19 +197,19 @@ div#section7 {
 }
 
 #section1Right {
-    background-image: url("https://www.apple.com/v/homepod/p/images/meta/og__f1gjn2qr476u_overview.png");
+    background-image: url("https://www.apple.com/v/homepod-2nd-generation/b/images/meta/homepod__dlwt789yhxme_og.png");
 }
 
 #section2Left {
-    background-image: url("https://i.ebayimg.com/images/g/EGUAAOSwSWhjxdjA/s-l1600.webp");
+    background-image: url("https://www.apple.com/v/macbook-pro/aw/images/overview/welcome/hero_endframe__fwev9ebh42mq_xlarge.jpg");
 }
 
 #section2Right {
-    background-image: url("https://www.t-mobile.com/dialed-in/_admin/uploads/2024/02/Hero_MagSafePicksiPhone_IPhoneAccessories.jpg");
+    background-image: url("https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/MGFL4?wid=4000&hei=4000&fmt=jpeg&qlt=90&.v=1757534573134");
 }
 
 #section3Left {
-    background-image: url("https://www.apple.com/v/mac-mini/aa/images/meta/mac-mini__dvce2jrm11w2_og.jpg");
+    background-image: url("https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/mac-mini-chip-unselect-202601-gallery-5_FMT_WHH?wid=690&hei=720&fmt=p-jpg&qlt=80&.v=d1pXNGRPZVVoYmlPOFhNR3g4R2wxUGFyNWMrRXhVOURuN2tLWDJRa3lPaWdXaHRrR0UyQ2FWV0IybXJYcjdHUXNQSmo4S3Y2K1lXWjJLUjd2dkU2MDJ5aFM4QSthSG1nSUl6WXJQME1SZ25yZnhlZktBMC9RZVEydndNMTZzeTVpU3kyL0FKUlpaZ25KNUNrQi8rOWdR&traceId=1");
 }
 
 #section3Right {
