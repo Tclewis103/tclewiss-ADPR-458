@@ -3,21 +3,25 @@ h1 {
     font-family: sans-serif;
     color: black;
     font-size:100px;
+    margin: 3px;
 }
 h2 {
     font-family: sans-serif;
     color: white;
     font-size: 100px;
+    margin: 3px;
 }
 h3 {
     font-family: sans-serif;
     color: black;
     font-size: 70px;
+    margin: 3px;
 }
 h4 {
     font-family: sans-serif;
     color: white;
     font-size: 70px;
+    margin: 3px;
 }
 
 /***** Button Components*********/
@@ -46,11 +50,24 @@ h4 {
     margin: 5px;
 
 }
+#section1 .heroBTN {
+    padding-top: 20px;
+    padding-bottom: 4px;
+}
 #section3 .heroBTN {
-    padding-bottom: 20px;
+    padding-bottom: 30px;
 }
 #section1Right .heroBTN {
-    padding-bottom: 30px;
+    padding-bottom: 15px;
+    padding-top: 20px;
+}
+#section2Left .heroBTN {
+    padding-bottom: 15px;
+    padding-top: 20px;
+}
+#section2Right .heroBTN {
+    padding-bottom: 10px;
+    padding-top: 10px;
 }
 
 /*****New CSS************/
@@ -177,19 +194,33 @@ div#section7 {
 #section1Right .content {
    position: absolute;
     bottom: 5%;
-    left: 50%;
+    left: 28%;
     transform: translateX(-50%);
     text-align: center;
     
 }
 #section2Left .content {
    position: absolute;
-    bottom: 5%;
+    top: 3%;
     left: 50%;
     transform: translateX(-50%);
     text-align: center;
-    
+    white-space: nowrap;
 }
+#section2Right .content {
+   position: absolute;
+    bottom: 12%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    color: white;
+}
+#accessories {
+    font-size: 50px;
+    color: white;
+    padding-top: 8px;
+}
+
 /**********Background images*************/
 
 #section1Left {
