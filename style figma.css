@@ -36,13 +36,17 @@ h4 {
     margin: 0 .25rem .25rem 0;
     transition: background-color 0.5s ease;
 }
-.button:hover {
-    
-
+.heroBTN a {
+    background-color: #3b73e0;
+    font-family: sans-serif;
+    color: white;
+    padding: 1rem 1.75rem;
+    border-radius: .5rem;
+    text-decoration: none;
 }
 
-
 /*****New CSS************/
+
 div#background {
     background-color: white;
     max-width: 1440px;
@@ -85,6 +89,7 @@ div#section2 {
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
+
 }
 
 div#section3 {
@@ -122,6 +127,27 @@ div#section7 {
     color: white;
     text-align: center;
 }
+
+/****** Content placements*******/
+.imgBackground, .half {
+    position: relative;
+}
+#section1 .content {
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+#section2 .content {
+    position: absolute;
+    top: 5px;
+    left:5px;
+}
+
+
+
+/**********Background images*************/
 
 #section1Left {
     background-image: url("https://www.apple.com/v/apple-vision-pro/j/images/overview/hero/hero__cvgr5aj1ttsi_large_2x.jpg");
