@@ -44,6 +44,9 @@ h4 {
     border-radius: .5rem;
     text-decoration: none;
 }
+#section3 .heroBTN {
+    padding-bottom: 50px;
+}
 
 /*****New CSS************/
 
@@ -141,11 +144,22 @@ div#section7 {
 }
 #section2 .content {
     position: absolute;
-    top: 5px;
-    left:5px;
+    bottom: 3%;
+    left: 3%;
+    transform: translateX(-3%);
+    text-align: center;
+    display: flex;
+    gap: 50px;
+    align-items: center;
 }
-
-
+#section3 .content {
+    position: absolute;
+    bottom: 3%;
+    right: 3%;
+    transform: translateX(-3%);
+    text-align: center;
+    
+}
 
 /**********Background images*************/
 
