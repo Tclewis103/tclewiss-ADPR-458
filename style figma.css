@@ -41,11 +41,14 @@ h4 {
     font-family: sans-serif;
     color: white;
     padding: 1rem 1.75rem;
-    border-radius: .5rem;
+    border-radius: 20rem;
     text-decoration: none;
+    margin: 5px;
+
+    
 }
 #section3 .heroBTN {
-    padding-bottom: 50px;
+    padding-bottom: 20px;
 }
 
 /*****New CSS************/
@@ -158,7 +161,16 @@ div#section7 {
     right: 3%;
     transform: translateX(-3%);
     text-align: center;
-    
+}
+#section1Left .content {
+    position: absolute;
+    bottom: 3%;
+    left: 5%;
+   transform: translateX(-3%);
+   text-align: center;
+    display: flex;
+    gap: 50px;
+    align-items: center;
 }
 
 /**********Background images*************/
