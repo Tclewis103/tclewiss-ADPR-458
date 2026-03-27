@@ -23,7 +23,16 @@ h4 {
     font-size: 70px;
     margin: 3px;
 }
-
+p {
+    font-family: sans-serif;
+    color: black;
+    font-size: 20px;
+    margin: 3px;
+}
+a {
+    font-family: sans-serif;
+    color: black;
+}
 /***** Button Components*********/
 
 
@@ -87,6 +96,8 @@ div#background {
     margin: auto;
 }
 
+/*********Normal Nav*********/
+
 div#nav {
     background-color: white;
     padding: 8px 0;
@@ -107,6 +118,7 @@ div#nav li {
     padding: 5px;
 }
 
+/*************Divs***********/
 div#section1 {
     background-image: url(https://pisces.bbystatic.com/image2/BestBuy_US/images/products/c3abe0d2-3129-4e47-8904-aadaf47eb4af.jpg);
     background-size: contain;
@@ -177,6 +189,7 @@ div#sectionmini {
     position: relative;
 
 }
+
 /****** Content placements*******/
 
 .imgBackground, .half {
@@ -322,4 +335,54 @@ left: 10px;
 
 #section3Right {
     background-image: url("https://www.apple.com/v/apple-watch-series-11/c/images/overview/product-viewer/product_landing_endframe__eaytrp6zz6c2_large.jpg");
+}
+
+/*************Product Specific***********/
+div#productnav {
+    background-color: black;
+    padding: 8px 0;
+    font-size: 12px;
+    font-family: sans-serif;
+    color: white;
+}
+div#productnav ul {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 20%;
+    flex-direction: row;
+    padding: 0;
+}
+div#productnav li {
+    list-style: none;
+    padding: 5px;
+}
+div#productsection1 {
+    background-color: white;
+    width: 100%;
+    height: 80vh;
+    background-size: cover;
+}
+#ipadimg {
+    position: absolute;
+    display: flex;
+    top: 10px;
+    right: 20px;
+    padding: 0px;
+}
+#ipadproducttext {
+    position: absolute;
+    left: 160px;
+    top: 35px;
+}
+#ipaddescriptiontext {
+    position: absolute;
+    font-size: 30px;
+    left: 145px;
+    top: 150px;
+}
+#ipadul {
+    position: absolute;
+    font-size: 25px;
+    left: 145px;
+    top: 215px;
 }
