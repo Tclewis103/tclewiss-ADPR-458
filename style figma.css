@@ -43,6 +43,7 @@ h4 {
 .heroBTN a {
     background-color: #3b73e0;
     font-family: sans-serif;
+    font-size: 16px;
     color: white;
     padding: 1rem 1.75rem;
     border-radius: 20rem;
@@ -133,7 +134,7 @@ div#section3 {
 div#section7 {
     background-image: url(https://9to5mac.com/wp-content/uploads/sites/6/2025/06/apple-tv-f1-movie.jpg?quality=82&strip=all);
     background-size: contain;
-    height: 100vh;
+    height: 80vh;
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -238,10 +239,25 @@ div#section7 {
     align-items: center;
 }
 #section3Righttext {
-
+position: absolute;
+top: 6px;
+left: 3%;
 }
 #section3Rightbtn {
-    
+position: absolute;
+bottom: 5%;
+left: 10px;
+}
+#section7 .content {
+    position: absolute;
+    top: 3%;
+    left: 3%;
+    text-align: center;
+}
+#section7btn {
+    position: absolute;
+    bottom: 30%;
+    left: 10%;
 }
 /********** Split Background images*************/
 
