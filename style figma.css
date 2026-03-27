@@ -386,3 +386,8 @@ div#productsection1 {
     left: 145px;
     top: 215px;
 }
+#ipadproductbutton {
+    position: absolute;
+    left: 285px;
+    bottom: 20%;
+}
