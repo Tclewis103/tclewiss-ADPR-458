@@ -231,3 +231,43 @@ div#footnote li {
 }
 
 /*************Project Specific***********/
+
+
+.card {
+    text-align: center;
+    padding-bottom: 2rem;
+    box-shadow: 0 .125rem .5rem rgba(0, 0, 0, .15);
+}
+.card-title {
+    margin: 0.75rem 0 0 0;
+    padding: 0 2rem 0.5rem;
+}
+.card-text {
+    margin: 0.5rem 0 1rem 0;
+    padding: 0 2rem 0.5rem;
+}
+/*Desktop */
+@media screen and (min-width: 40rem) {
+    .col-span-8 {
+        grid-column: span 8;
+    }
+    .col-span-4 {
+        grid-column: span 4;
+    }
+ .work-section {
+    display: flex;
+    gap: 1rem;
+}
+
+.card {
+    flex: 0 0 calc((100% - 2rem) / 3);
+    box-sizing: border-box;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+}
+    
