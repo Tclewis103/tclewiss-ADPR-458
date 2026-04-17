@@ -83,41 +83,20 @@ div#background {
     margin: auto;
 }
 
-/*********Normal Nav*********/
-
-div#nav {
-    background-color: white;
-    padding: 8px 0;
-    font-size: 12px;
-    font-family: sans-serif;
-}
-
-div#nav ul {
-    display: flex;
-    justify-content: space-evenly;
-    margin: 0 20%;
-    flex-direction: row;
-    padding: 0;
-}
-
-div#nav li {
-    list-style: none;
-    padding: 5px;
-}
-
 /*************Divs***********/
 div#section1 {
-    background-image: url(/Final/Images/switcher\ only.jpeg);
+    background-image: url(/Final/Images/me\ evs.JPG);
     background-size: cover;
     height: 60vh;
     width: 100%;
     background-repeat: no-repeat;
+    background-position: 50px;
 }
 
 div#section7 {
     background-color: black;
     background-size: contain;
-    height: 40vh;
+    height: 15vh;
     width: 100%;
 }
 
@@ -163,13 +142,12 @@ div#sectionmini {
 
 #section1Left .content {
     position: absolute;
-    bottom: 0;
-    left: 5%;
-   transform: translateX(-3%);
+    bottom: 30%;
    text-align: center;
     display: flex;
     gap: 50px;
     align-items: center;
+    flex-direction: column;
 }
 #section1Right .content {
    position: absolute;
@@ -181,7 +159,7 @@ div#sectionmini {
 }
 #section2Left .content {
    position: absolute;
-    top: 3%;
+    bottom: 2%;
     left: 50%;
     transform: translateX(-50%);
     text-align: center;
@@ -201,18 +179,6 @@ div#sectionmini {
     padding-top: 8px;
 }
 
-#section7 .content {
-    position: absolute;
-    top: 3%;
-    left: 3%;
-    text-align: center;
-}
-#section7btn {
-    position: absolute;
-    bottom: 30%;
-    left: 10%;
-}
-
 #sectionmini .content {
     position: absolute;
     text-align: center;
@@ -226,88 +192,42 @@ div#sectionmini {
 /********** Split Background images*************/
 
 #section1Left {
-    background-image: url("https://www.apple.com/v/apple-vision-pro/j/images/overview/hero/hero__cvgr5aj1ttsi_large_2x.jpg");
+    background-image: url(/Final/Images/switcher\ only.jpeg);
 }
 
 #section1Right {
-    background-image: url("https://www.apple.com/v/homepod-2nd-generation/b/images/meta/homepod__dlwt789yhxme_og.png");
+    background-image: url(/Final/Images/evs\ room.jpeg);
 }
 
 #section2Left {
-    background-image: url("https://www.apple.com/v/macbook-pro/aw/images/overview/welcome/hero_endframe__fwev9ebh42mq_xlarge.jpg");
+    background-image: url(/Final/Images/mem\ empty.JPG);
 }
 
 #section2Right {
-    background-image: url("https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/MGFL4?wid=4000&hei=4000&fmt=jpeg&qlt=90&.v=1757534573134");
+    background-image: url(/Final/Images/hv\ usc.JPG);
 }
 
-/*************Product Specific***********/
-
-div#productnav {
+/********Footnote*************/
+div#footnote {
     background-color: black;
-    padding: 8px 0;
-    font-size: 12px;
+    padding: 6px 0;
+    font-size: 20px;
     font-family: sans-serif;
     color: white;
 }
-div#productnav ul {
+
+
+div#footnote ul {
     display: flex;
     justify-content: space-evenly;
-    margin: 0 20%;
     flex-direction: row;
     padding: 0;
 }
-div#productnav li {
+
+
+div#footnote li {
     list-style: none;
     padding: 5px;
-    color: white;
 }
-div#productsection1 {
-    background-color: white;
-    width: 100%;
-    height: 80vh;
-    background-size: cover;
-}
-#ipadimg {
-    position: absolute;
-    display: flex;
-    top: 10px;
-    right: 20px;
-    padding: 0px;
-}
-#ipadproducttext {
-    position: absolute;
-    left: 160px;
-    top: 35px;
-}
-#ipaddescriptiontext {
-    position: absolute;
-    font-size: 30px;
-    left: 145px;
-    top: 150px;
-}
-#ipadul {
-    position: absolute;
-    font-size: 25px;
-    left: 145px;
-    top: 215px;
-}
-#ipadproductbutton {
-    position: absolute;
-    left: 285px;
-    bottom: 30%;
-}
-#colors {
-    position: absolute;
-  display: flex;
-  justify-content: center;
-  gap: 10px; 
-  margin-bottom: 15px;
-  bottom: 2px;
-  left: 130px;
-  
-}
-div#colors img {
-    height: 100px;
-    width: 100px;
-}
+
+/*************Project Specific***********/
